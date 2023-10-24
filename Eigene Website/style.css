@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+ flex-wrap: wrap;
+    background-color: rgb(7, 0, 0);
+}
+/* Rectangle 1 */
+.navbar {
+
+    position: fixed;
+width: 100%;
+top: 1.5%;
+padding: 0.7%;
+background: rgb(24, 23, 23);
+
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0.1;
+    padding: 0;
+    text-align: center;
+
+}
+.navbar li {
+    display: inline; /* Horizontale Anordnung der Listenelemente */
+    margin-right: 10%; /* Abstand zwischen den Elementen */
+margin-left: 10%;
+}
+.navbar a {
+    color: white;
+font-family: sans-serif,Arial;
+font-weight: 100;    
+font-size: 140%;
+text-decoration: none;
+
+}
+.navbar a:hover {
+    color: rgb(13, 111, 132);
+}
+.navbar a:active {
+    color: rgb(13, 111, 132);  
+}
+
+
+img {
+ /* Nico Bild 1 */
+ margin: 0;
+ display: flex;
+ flex-wrap: wrap;
+ position: absolute;
+ max-width: 45%;
+ max-height: 80%;
+ left: 0;
+ top: 13%; 
+
+}
+
+.Block {
+/* Rectangle 2 */
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+width: 65%;
+height: 80%;
+left: 35%;
+top: 13%;
+
+background: #181717;
+}
+.Block h1 {
+    position: absolute;
+width: 25%;
+height: 25;
+left: 5%;
+top: 8%;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 7em;
+
+
+color: #FFFFFF;
+
+}
+
+.Block p {
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+
+position: absolute;
+width: 90%;
+height: 40%;
+left: 5%;
+top: 390px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5em;
+
+color: #FFFFFF;
+
+
+}
+
+.Linie {
+position: absolute;
+width: 40%;
+height: 0%;
+left: 0%;
+top: 96.5%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(-0.19deg);
+}
+
+.Linie2 {
+
+
+position: absolute;
+width: 40%;
+height: 0%;
+left: 59.9%;
+top: 96.5%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(179.81deg);
+
+}
+.Mail {
+    /* nico.weiss@swisscom.com */
+
+position: absolute;
+width: 16%;
+height: 4%;
+left: 42.3%;
+top: 95%;
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 200%;
+line-height: 39px;
+
+color: #FFFFFF;
+
+
+}
+@media (max-width: 2200px) {
+    .Block h1 {
+    font-size: 400%;
+
+    }
+    
+    .Block p {
+    font-size: 200%;
+    
+    
+position: absolute;
+top: 40%;    
+}
+
+}

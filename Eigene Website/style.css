@@ -151,7 +151,7 @@ color: #FFFFFF;
 
 
 }
-@media (max-width: 2200px) {
+@media (max-width: 600px) {
     .Block h1 {
     font-size: 400%;
 

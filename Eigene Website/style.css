@@ -18,6 +18,7 @@ margin-top: -0.3%;
 
 
 .navbar ul {
+    
     list-style-type: none;
     margin: 0.1;
     padding: 0;
@@ -35,13 +36,11 @@ font-family: sans-serif,Arial;
 font-weight: 100;    
 font-size: 140%;
 text-decoration: none;
-
+transition: font-size 0.5s;
 }
 .navbar a:hover {
     color: rgb(13, 111, 132);
-}
-.navbar a:active {
-    color: rgb(13, 111, 132);  
+    font-size: 160%;
 }
 
 
@@ -149,7 +148,9 @@ line-height: 39px;
 
 color: #FFFFFF;
 
-
+}
+.Mail:hover {
+    color: rgb(13, 111, 132);
 }
 @media (max-width: 2000px) {
     .Block h1 {

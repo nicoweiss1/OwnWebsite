@@ -36,13 +36,11 @@ font-family: sans-serif,Arial;
 font-weight: 100;    
 font-size: 140%;
 text-decoration: none;
-transition: font-size 0.5s;
+
 }
 .navbar a:hover {
     color: rgb(13, 111, 132);
-    font-size: 160%;
 }
-
 
 img {
  /* Nico Bild 1 */

@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+ flex-wrap: wrap;
+    background-color: rgb(7, 0, 0);
+}
+/* Rectangle 1 */
+.navbar {
+
+    position: fixed;
+width: 100%;
+top: 1.5%;
+padding: 0.5%;
+background: rgb(24, 23, 23);
+margin-top: -0.3%;
+}
+
+
+.navbar ul {
+    
+    list-style-type: none;
+    margin: 0.1;
+    padding: 0;
+    text-align: center;
+
+}
+.navbar li {
+    display: inline; /* Horizontale Anordnung der Listenelemente */
+    margin-right: 10%; /* Abstand zwischen den Elementen */
+margin-left: 10%;
+}
+.navbar a {
+    color: white;
+font-family: sans-serif,Arial;
+font-weight: 100;    
+font-size: 140%;
+text-decoration: none;
+
+}
+.navbar a:hover {
+    color: rgb(13, 111, 132);
+}
+
+
+
+
+
+.Linie {
+position: absolute;
+width: 40%;
+height: 0%;
+left: 0%;
+top: 96.5%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(-0.19deg);
+}
+
+.Linie2 {
+
+
+position: absolute;
+width: 40%;
+height: 0%;
+left: 59.9%;
+top: 96.5%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(179.81deg);
+
+}
+.Mail {
+    /* nico.weiss@swisscom.com */
+
+position: absolute;
+width: 16%;
+height: 4%;
+left: 42%;
+top: 95%;
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 200%;
+line-height: 39px;
+
+color: #FFFFFF;
+
+}
+.Mail:hover {
+    color: rgb(13, 111, 132);
+}
+@media (max-width: 2000px) {
+    .Block h1 {
+    font-size: 400%;
+
+    }
+    
+    .Block p {
+    font-size: 200%;
+    
+    
+position: absolute;
+top: 40%;    
+}
+.Mail {
+font-size: 120%;
+position: absolute;
+top: 94%;
+
+}
+}

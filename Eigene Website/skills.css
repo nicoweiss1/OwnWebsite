@@ -69,7 +69,7 @@ left: 33%;
 
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
-font-size: 230%;
+font-size: 260%;
 font-weight: 400;
 text-decoration-line: underline;
 
@@ -83,7 +83,7 @@ color: #FFFFFF;
 /* Basic-Gut */
 
 position: absolute;
-width: 53%;
+width: 60%;
 height: 10%;
 left: 22%;
 top: 77%;
@@ -92,7 +92,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 225%;
+font-size: 255%;
 
 
 color: #FFFFFF;
@@ -134,7 +134,7 @@ background: #362F2F;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 
-    font-size: 230%;
+    font-size: 260%;
     font-weight: 400;
     text-decoration-line: underline;
     
@@ -145,7 +145,7 @@ background: #362F2F;
 /* Basic-Gut */
 
 position: absolute;
-width: 53%;
+width: 60%;
 height: 10%;
 left: 22%;
 top: 77%;
@@ -153,7 +153,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 225%;
+font-size: 255%;
 
 
 color: #FFFFFF;
@@ -199,7 +199,7 @@ left: 37%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 230%;
+font-size: 260%;
 
 text-decoration-line: underline;
 
@@ -219,7 +219,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 225%;
+font-size: 255%;
 
 
 color: #FFFFFF;
@@ -291,10 +291,36 @@ color: #FFFFFF;
 @media (max-width: 1800px) {
    
 .Mail {
-font-size: 120%;
+font-size: 125%;
 position: absolute;
 top: 94%;
 
+}
+
+}
+@media (min-width: 2200px) {
+
+.HTMLBlock h1 {
+    font-size: 350%;
+}
+.CSSBlock h1 {
+    font-size: 350%; 
+} 
+.JavaBlock h1 {
+    font-size: 350%; 
+} 
+
+.HTMLBlock p {
+    font-size: 350%;
+}
+.HTMLBlock p {
+    font-size: 350%;
+}
+.CSSBlock p {
+    font-size: 350%;
+}
+.JavaBlock p {
+    font-size: 350%;
 }
 
 }

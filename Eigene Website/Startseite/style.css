@@ -14,6 +14,7 @@ top: 1.5%;
 padding: 0.5%;
 background: rgb(24, 23, 23);
 margin-top: -0.3%;
+height: 5%;
 }
 
 
@@ -23,7 +24,7 @@ margin-top: -0.3%;
     margin: 0.1;
     padding: 0;
     text-align: center;
-
+line-height: 5%;
 }
 .navbar li {
     display: inline; /* Horizontale Anordnung der Listenelemente */
@@ -34,7 +35,7 @@ margin-left: 8%;
     color: white;
 font-family: sans-serif,Arial;
 font-weight: 100;    
-font-size: 140%;
+font-size: 110%;
 text-decoration: none;
 
 }
@@ -150,23 +151,23 @@ color: #FFFFFF;
 .Mail:hover {
     color: rgb(13, 111, 132);
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 100px) {
     .Block h1 {
-    font-size: 500%;
+    font-size: 300%;
 
     }
     
     .Block p {
-    font-size: 230%;
+    font-size: 170%;
     
     
 position: absolute;
 top: 40%;    
 }
 .Mail {
-font-size: 120%;
+font-size: 85%;
 position: absolute;
-top: 94%;
+top: 92.5%;
 
 }
 }

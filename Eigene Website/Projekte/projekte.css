@@ -48,7 +48,7 @@ text-decoration: none;
 .FirstSteps img {
     position: absolute;
 width: 35%;
-height: 35%;
+height: 60%;
 left: 5%;
 top: 30%;
 box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */

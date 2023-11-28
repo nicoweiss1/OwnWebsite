@@ -14,6 +14,7 @@ top: 1.5%;
 padding: 0.5%;
 background: rgb(24, 23, 23);
 margin-top: -0.3%;
+height: 5%;
 }
 
 
@@ -23,18 +24,18 @@ margin-top: -0.3%;
     margin: 0.1;
     padding: 0;
     text-align: center;
-
+line-height: 5%;
 }
 .navbar li {
     display: inline; /* Horizontale Anordnung der Listenelemente */
-    margin-right: 8%; /* Abstand zwischen den Elementen */
-margin-left: 8%;
+    margin-right: 6%; /* Abstand zwischen den Elementen */
+margin-left: 6%;
 }
 .navbar a {
     color: white;
 font-family: sans-serif,Arial;
 font-weight: 100;    
-font-size: 140%;
+font-size: 110%;
 text-decoration: none;
 
 }
@@ -42,6 +43,69 @@ text-decoration: none;
     color: rgb(13, 111, 132);
 }
 
+img {
+ /* Nico Bild 1 */
+ margin: 0;
+ display: flex;
+ flex-wrap: wrap;
+ position: absolute;
+ max-width: 45%;
+ max-height: 80%;
+ left: 0;
+ top: 13%; 
+
+}
+
+.Block {
+/* Rectangle 2 */
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+width: 65%;
+height: 80%;
+left: 35%;
+top: 13%;
+
+background: #181717;
+}
+.Block h1 {
+position: absolute;
+width: 25%;
+height: 25;
+left: 5%;
+top: 1%;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 600%;
+
+
+color: #FFFFFF;
+
+}
+
+.Block p {
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+
+position: absolute;
+width: 90%;
+height: 40%;
+left: 5%;
+top: 35%;
+font-size: 240%;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+
+color: #FFFFFF;
+
+
+}
 
 .Linie {
 position: absolute;
@@ -73,12 +137,12 @@ transform: rotate(179.81deg);
 position: absolute;
 width: 16%;
 height: 4%;
-left: 42.5%;
-top: 94.5%;
+left: 42%;
+top: 94%;
 
 font-family: Arial, Helvetica, sans-serif;
 
-font-size: 165%;
+font-size: 110%;
 line-height: 39px;
 
 color: #FFFFFF;
@@ -87,23 +151,34 @@ color: #FFFFFF;
 .Mail:hover {
     color: rgb(13, 111, 132);
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1000px) {
     .Block h1 {
-    font-size: 500%;
+    font-size: 350%;
 
     }
     
     .Block p {
-    font-size: 230%;
+    font-size: 170%;
     
     
 position: absolute;
 top: 40%;    
 }
+.navbar li {
+font-size: 90%;
+margin-right: 7%; /* Abstand zwischen den Elementen */
+margin-left: 7%;
+}
+.navbar ul {
+    line-height: 0%;
+}
+.navbar {
+    height: 7%;
+}
 .Mail {
-font-size: 120%;
+font-size: 85%;
 position: absolute;
-top: 94%;
+top: 92.5%;
 
 }
 }

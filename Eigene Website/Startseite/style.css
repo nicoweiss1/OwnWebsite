@@ -70,16 +70,16 @@ top: 13%;
 background: #181717;
 }
 .Block h1 {
-    position: absolute;
+position: absolute;
 width: 25%;
 height: 25;
 left: 5%;
-top: 2%;
+top: 1%;
 
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 7em;
+font-size: 600%;
 
 
 color: #FFFFFF;
@@ -96,11 +96,11 @@ width: 90%;
 height: 40%;
 left: 5%;
 top: 35%;
-
+font-size: 240%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 3.5em;
+
 
 color: #FFFFFF;
 
@@ -137,12 +137,12 @@ transform: rotate(179.81deg);
 position: absolute;
 width: 16%;
 height: 4%;
-left: 42.5%;
-top: 94.5%;
+left: 42%;
+top: 94%;
 
 font-family: Arial, Helvetica, sans-serif;
 
-font-size: 165%;
+font-size: 110%;
 line-height: 39px;
 
 color: #FFFFFF;
@@ -151,9 +151,9 @@ color: #FFFFFF;
 .Mail:hover {
     color: rgb(13, 111, 132);
 }
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1000px) {
     .Block h1 {
-    font-size: 300%;
+    font-size: 350%;
 
     }
     
@@ -163,6 +163,17 @@ color: #FFFFFF;
     
 position: absolute;
 top: 40%;    
+}
+.navbar li {
+font-size: 90%;
+margin-right: 7%; /* Abstand zwischen den Elementen */
+margin-left: 7%;
+}
+.navbar ul {
+    line-height: 0%;
+}
+.navbar {
+    height: 7%;
 }
 .Mail {
 font-size: 85%;

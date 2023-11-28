@@ -30,8 +30,8 @@ height: 5%;
 }
 .navbar li {
     display: inline; /* Horizontale Anordnung der Listenelemente */
-    margin-right: 10%; /* Abstand zwischen den Elementen */
-margin-left: 10%;
+    margin-right: 8%; /* Abstand zwischen den Elementen */
+margin-left: 8%;
 }
 .navbar a {
     color: white;
@@ -72,7 +72,7 @@ left: 31%;
 
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
-font-size: 260%;
+font-size: 200%;
 font-weight: 400;
 text-decoration-line: underline;
 
@@ -95,7 +95,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 255%;
+font-size: 210%;
 
 
 color: #FFFFFF;
@@ -137,7 +137,7 @@ background: #362F2F;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 
-    font-size: 260%;
+    font-size: 200%;
     font-weight: 400;
     text-decoration-line: underline;
     
@@ -156,7 +156,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 255%;
+font-size: 210%;
 
 
 color: #FFFFFF;
@@ -202,7 +202,7 @@ left: 35%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 260%;
+font-size: 200%;
 
 text-decoration-line: underline;
 
@@ -222,7 +222,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 255%;
+font-size: 210%;
 
 
 color: #FFFFFF;
@@ -255,14 +255,14 @@ background: #362F2F;
 /* Python */
 
 position: absolute;
-width: 29%;
-height: 30%;
-left: 26%;
+width: 22%;
+height: 9%;
+left: 28.5%;
 
 
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
-font-size: 260%;
+font-size: 200%;
 font-weight: 400;
 text-decoration-line: underline;
 
@@ -281,7 +281,7 @@ top: 77%;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 255%;
+font-size: 210%;
 
 
 color: #FFFFFF;
@@ -308,56 +308,51 @@ top: 30%;
 
 
 .Linie {
-
-
+    position: absolute;
+    width: 40%;
+    height: 0%;
+    left: 0%;
+    top: 180%;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(-0.19deg);
+    }
+    
+    .Linie2 {
+    
+    
+    position: absolute;
+    width: 40%;
+    height: 0%;
+    left: 59.9%;
+    top: 180%;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(179.81deg);
+    
+    }
+    .Mail {
+        /* nico.weiss@swisscom.com */
+    
+    position: absolute;
+    width: 16%;
+    height: 4%;
+    left: 42%;
+    top: 178.5%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 110%;
    
-width: 40%;
-height: 0%;
-margin-left: -1%;
-margin-top: 2%;
-margin-right: auto;
-
-border: 1px solid #FFFFFF;
-transform: rotate(-0.19deg);
-
-}
-
-.Linie2 {
-width: 40%;
-height: 0%;
-border: 1px solid #FFFFFF;
-transform: rotate(179.81deg);
-margin-left: auto;
-margin-right: 0;
-}
-
-.footer a {
-    /* nico.weiss@swisscom.com */
-
-text-align: center;
-width: 16%;
-height: 4%;
-left: 41.6%;
-top: 121%;
-font-family: Arial, Helvetica, sans-serif;
-
-font-size: 165%;
-line-height: 39px;
-
-color: #FFFFFF;
-
-}
-footer .Mail:hover {
-    color: rgb(13, 111, 132);
-}
+    
+    color: #FFFFFF;
+    
+    }
+    .Mail:hover {
+        color: rgb(13, 111, 132);
+    }
 @media (max-width: 1800px) {
-   
-footer .Mail {
-font-size: 125%;
-position: fixed;
-bottom: 0;
-z-index: 0;
-}
+
 
 }
 @media (min-width: 2200px) {
@@ -384,18 +379,60 @@ z-index: 0;
 .JavaBlock p {
     font-size: 350%;
 }
+.PythonBlock h1 {
+    font-size: 350%;
+    }
+    .PythonBlock p {
+    font-size: 350%; 
+    }
+}
+@media screen and (max-width: 1000px) {
+.navbar li {
+font-size: 90%;
+margin-right: 7%; /* Abstand zwischen den Elementen */
+margin-left: 7%;
+}
+.navbar ul {
+    line-height: 0%;
+}
+.navbar {
+    height: 8%;
+}
+.Mail {
+font-size: 85%;
+position: absolute;
+    width: 16%;
+    height: 4%;
+    left: 41.5%;
+    top: 178.5%;
+}
+.HTMLBlock h1 {
+    font-size: 160%;
+}
+.CSSBlock h1 {
+    font-size: 160%; 
+} 
+.JavaBlock h1 {
+    font-size: 160%; 
+} 
 
+.HTMLBlock p {
+    font-size: 160%;
 }
 
-.footer {
-  
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 7%;
-    background-color: #333; /* Hintergrundfarbe des Footers */
-    color: #fff; /* Textfarbe des Footers */
-    padding: 10px; /* Innenabstand des Footers */
-    text-align: center; /* Zentrieren des Texts im Footer */
-    z-index: 1;
+.CSSBlock p {
+    font-size: 160%;
 }
+.JavaBlock p {
+    font-size: 160%;
+}
+.PythonBlock h1 {
+font-size: 160%;
+}
+.PythonBlock p {
+font-size: 160%; 
+}
+}
+
+
+

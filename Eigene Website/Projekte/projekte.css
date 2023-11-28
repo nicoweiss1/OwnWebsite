@@ -28,8 +28,8 @@ height: 5%;
 }
 .navbar li {
     display: inline; /* Horizontale Anordnung der Listenelemente */
-    margin-right: 10%; /* Abstand zwischen den Elementen */
-margin-left: 10%;
+    margin-right: 8%; /* Abstand zwischen den Elementen */
+margin-left: 8%;
 }
 .navbar a {
     color: white;
@@ -94,6 +94,25 @@ color: #FFFFFF;
 font-size: 120%;
 position: absolute;
 top: 94%;
+
+}
+}
+@media screen and (max-width: 1000px) {
+.navbar li {
+font-size: 90%;
+margin-right: 7%; /* Abstand zwischen den Elementen */
+margin-left: 7%;
+}
+.navbar ul {
+    line-height: 0%;
+}
+.navbar {
+    height: 7%;
+}
+.Mail {
+font-size: 85%;
+position: absolute;
+top: 92.5%;
 
 }
 }

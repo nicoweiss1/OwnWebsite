@@ -44,59 +44,104 @@ text-decoration: none;
 }
 
 
+
+.FirstSteps img {
+    position: absolute;
+width: 35%;
+height: 35%;
+left: 5%;
+top: 30%;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Linie {
-position: absolute;
-width: 40%;
-height: 0%;
-left: 0%;
-top: 96.5%;
-
-border: 1px solid #FFFFFF;
-transform: rotate(-0.19deg);
-}
-
-.Linie2 {
-
-
-position: absolute;
-width: 40%;
-height: 0%;
-left: 59.9%;
-top: 96.5%;
-
-border: 1px solid #FFFFFF;
-transform: rotate(179.81deg);
-
-}
-.Mail {
-    /* nico.weiss@swisscom.com */
-
-position: absolute;
-width: 16%;
-height: 4%;
-left: 42%;
-top: 94.5%;
-
-font-family: Arial, Helvetica, sans-serif;
-
-font-size: 165%;
-line-height: 39px;
-
-color: #FFFFFF;
-
-}
+    position: absolute;
+    width: 40%;
+    height: 0%;
+    left: 0%;
+    top: 96.5%;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(-0.19deg);
+    }
+    
+    .Linie2 {
+    
+    
+    position: absolute;
+    width: 40%;
+    height: 0%;
+    left: 59.9%;
+    top: 96.5%;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(179.81deg);
+    
+    }
+    .Mail {
+        /* nico.weiss@swisscom.com */
+    
+    position: absolute;
+    width: 16%;
+    height: 4%;
+    left: 42%;
+    top: 94%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 110%;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+    
+    }
 .Mail:hover {
     color: rgb(13, 111, 132);
 }
-@media (max-width: 1800px) {
-   
-.Mail {
-font-size: 120%;
-position: absolute;
-top: 94%;
 
-}
-}
 @media screen and (max-width: 1000px) {
 .navbar li {
 font-size: 90%;

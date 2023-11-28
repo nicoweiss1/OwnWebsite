@@ -55,10 +55,32 @@ left: 10%;
 top: 25%;
 
 background: #362F2F;
-
-
-display: flex;
-flex-wrap: wrap;
+overflow: hidden;
+}
+.HTMLBlock:hover h1,
+.HTMLBlock:hover p,
+.HTMLBlock:hover img {
+  opacity: 0;
+}
+.HTMLBlock:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */
+}
+.HTMLBlock:hover::after {
+    content: "In den ersten Monaten meiner Lehrzeit habe ich mit W3School HTML gelernt. Ich habe versucht diese Befehle anzuwenden und habe dann anschliessend versucht ein Projekt umzusetzen mit meinem Wissen. Dieses Projekt ist diese Webseite.";
+    position: absolute;
+    width: 90%;
+    height: 65%;
+    left: 5%;
+    top: 40%; /* Ändern Sie die Startposition auf die Mitte (50%) */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    color: #FFFFFF;
+    opacity: 1;
+    transform: translateY(-50%); /* Verschieben Sie den Text von unten nach oben */
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out;
+    
 }
 
 .HTMLBlock h1 {
@@ -78,7 +100,7 @@ text-decoration-line: underline;
 
 color: #FFFFFF;
 
-
+background: #362F2F;
 }
 
 .HTMLBlock p {
@@ -123,8 +145,34 @@ left: 41%;
 top: 25%;
 
 background: #362F2F;
-
+overflow: hidden;
 }
+.CSSBlock:hover h1,
+.CSSBlock:hover p,
+.CSSBlock:hover img {
+  opacity: 0;
+}
+.CSSBlock:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */
+}
+.CSSBlock:hover::after {
+    content: "Parallel zu HTML habe ich auch CSS mit W3School gelernt und habe die Befehle ebenfalls ausgeführt um zu verstehen was diese machen. Das Projekt zu CSS ist ebenfalls diese Webseite.";
+    position: absolute;
+    width: 90%;
+    height: 65%;
+    left: 5%;
+    top: 40%; /* Ändern Sie die Startposition auf die Mitte (50%) */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    color: #FFFFFF;
+    opacity: 1;
+    transform: translateY(-50%); /* Verschieben Sie den Text von unten nach oben */
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out;
+ 
+}
+
 
 .CSSBlock h1 {
     /* CSS */
@@ -190,6 +238,33 @@ background: #362F2F;
 
 }
 
+.JavaBlock:hover h1,
+.JavaBlock:hover p,
+.JavaBlock:hover img {
+  opacity: 0;
+}
+.JavaBlock:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */
+}
+.JavaBlock:hover::after {
+    content: "In der Schule habe ich zuerst die Java Basics gelernt (Konstrukor, Methoden etc). Ich habe dann den Auftrag bekommen ein Spiel weiterzuentwicklen (ein quartet). Dort musste ich neue Attribute hinzufügen sowie den Code verstehen.";
+    position: absolute;
+    width: 90%;
+    height: 65%;
+    left: 5%;
+    top: 40%; /* Ändern Sie die Startposition auf die Mitte (50%) */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    color: #FFFFFF;
+    opacity: 1;
+    transform: translateY(-50%); /* Verschieben Sie den Text von unten nach oben */
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out;
+ 
+}
+
+
 .JavaBlock h1 {
     /* Java */
 
@@ -239,6 +314,7 @@ color: #FFFFFF;
     top: 24%;
 }
 
+
 .PythonBlock {
     /* Python-Block */
 
@@ -249,6 +325,31 @@ left: 10%;
 top: 100%;
     
 background: #362F2F;
+}
+.PythonBlock:hover h1,
+.PythonBlock:hover p,
+.PythonBlock:hover img {
+  opacity: 0;
+}
+.PythonBlock:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */
+}
+.PythonBlock:hover::after {
+    content: "In der Schule hat wir einen kleinen Workshop zu Python wir mussten verschiedene Aufgaben lösen und lernten erstmals die Programmiersprache kennen. Als wir die Basics konnten (Print, If, Else, While, Variabeln etc) lernten wir auch Pandas kennen um CSV files zu bearbeiten und zu konfiguiren.";
+    position: absolute;
+    width: 90%;
+    height: 65%;
+    left: 5%;
+    top: 40%; /* Ändern Sie die Startposition auf die Mitte (50%) */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    color: #FFFFFF;
+    opacity: 1;
+    transform: translateY(-50%); /* Verschieben Sie den Text von unten nach oben */
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out;
+ 
 }
 
 .PythonBlock h1 {

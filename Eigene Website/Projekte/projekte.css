@@ -1,8 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
- flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: rgb(7, 0, 0);
 }
 /* Rectangle 1 */
@@ -45,21 +46,10 @@ text-decoration: none;
 
 
 
-.FirstSteps img {
-    position: absolute;
-width: 35%;
-height: 60%;
-left: 5%;
-top: 30%;
-box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Hinzufügen von Box Shadow */
+.FirstSteps {
+    background-color: #362F2F;
+padding: 7%;
 }
-
-
-
-
-
-
-
 
 
 

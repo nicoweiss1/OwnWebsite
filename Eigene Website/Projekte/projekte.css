@@ -1,42 +1,47 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column; /* oder row, je nach Bedarf */
+    align-items: stretch; /* Streckt die Elemente, um die gesamte Höhe oder Breite zu füllen */
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
     background-color: rgb(7, 0, 0);
 }
 /* Rectangle 1 */
 .navbar {
-
+    display: flex;    
+    justify-content: center;
+    align-items: center;
     position: fixed;
-width: 100%;
-top: 1.5%;
-padding: 0.5%;
-background: rgb(24, 23, 23);
-margin-top: -0.3%;
-height: 5%;
-}
-
-
-.navbar ul {
+    width: 100%;
+    top: 1.5%;
+    padding: 1% 0%;
+    background: rgb(24, 23, 23);
+    z-index: 1000;
+  }
+  
+  .navbar ul {
     
     list-style-type: none;
-    margin: 0.1;
+    margin: 0;
     padding: 0;
-    text-align: center;
-    line-height: 5%;
+    display: flex;
+    width: 100%; /* Fügt hinzu, dass .navbar ul den gesamten verfügbaren Platz einnimmt */
+    justify-content: space-around;  
+
 }
-.navbar li {
-    display: inline; /* Horizontale Anordnung der Listenelemente */
-    margin-right: 8%; /* Abstand zwischen den Elementen */
-margin-left: 8%;
+  
+  .navbar li {
+
+
 }
-.navbar a {
-    color: white;
+    .navbar a {
+padding: 0;
+margin: 0;
+color: white;
 font-family: sans-serif,Arial;
 font-weight: 100;    
-font-size: 110%;
+font-size: 100%;
 text-decoration: none;
 
 }
@@ -44,23 +49,59 @@ text-decoration: none;
     color: rgb(13, 111, 132);
 }
 
-
-
-.FirstSteps {
-    background-color: #362F2F;
-padding: 7%;
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 6%;
+    height: auto;
 }
 
 
+  .project {
+    width: 30%; /* Ändere die Breite der Projekte nach Bedarf */
+    margin: 10%; /* Füge einen kleinen Abstand zwischen den Projekten hinzu */
+    background: #362F2F;
+    text-align: center;
+    padding: 1%;
+    box-sizing: border-box; /* Wichtig, damit Padding nicht die Breite beeinflusst */
+ 
+    color: white;
+ 
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;  
+transition: max-height 0.3s;
+max-height: 80px;
+}
+.project h3 {
+    
+ 
+  white-space: nowrap; /* Verhindere den Zeilenumbruch */
+  overflow: hidden; /* Verhindere den Überlauf von Text */
+  text-overflow: ellipsis;
+}
+
+.project:hover {
+    max-height: 350px;
+}
+
+.project:hover .additional-text {
+    opacity: 1;
+}
 
 
-
-
-
-
-
-
-
+.additional-text {
+   
+    width: 100%;
+    
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
 
 
 

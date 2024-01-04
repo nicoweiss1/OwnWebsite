@@ -60,6 +60,10 @@ text-decoration: none;
 
 
   .project {
+    display: flex; /* Flexbox für die Ausrichtung des Inhalts verwenden */
+    flex-direction: column; /* Elemente vertikal stapeln */
+    align-items: center; /* Horizontale Zentrierung */
+    justify-content: flex-start; /* Vertikale Zentrierung */
     width: 30%; /* Ändere die Breite der Projekte nach Bedarf */
     margin: 10%; /* Füge einen kleinen Abstand zwischen den Projekten hinzu */
     background: #362F2F;
@@ -79,21 +83,20 @@ max-height: 80px;
     
  
   white-space: nowrap; /* Verhindere den Zeilenumbruch */
-  overflow: hidden; /* Verhindere den Überlauf von Text */
+   /* Verhindere den Überlauf von Text */
   text-overflow: ellipsis;
 }
 
-.project:hover {
-    max-height: 350px;
+.project.hovertarget:hover {
+    max-height: 500px; /* Zielwert für die max-height beim Hover */
 }
-
-.project:hover .additional-text {
+#project1:hover .additional-text {
     opacity: 1;
 }
 
 
 .additional-text {
-   
+    
     width: 100%;
     
     padding: 10px;

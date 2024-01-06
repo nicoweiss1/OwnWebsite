@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(7, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(24, 23, 23);
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1%;
+}
+.Element {
+    font-size: 130%;        
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif,Arial;
+}
+a:hover {
+    color: rgb(13, 111, 132);
+}
+

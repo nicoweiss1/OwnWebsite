@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(7, 0, 0);
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.navbar {
+    background: rgb(24, 23, 23);
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1vw;
+}
+.Element {
+    font-size: 1vw;        
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif,Arial;
+}
+
+a:hover {
+    color: rgb(13, 111, 132);
+}
+
+
+
+
+.All-Projects {
+    display: flex;
+    justify-content: space-around;
+}
+.project {
+    background: #362F2F;
+    width: 25vw;
+    padding: 1vw;
+    margin: 4vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+font-size: 1.5vw;
+}
+p {
+font-size: 1vw;
+}

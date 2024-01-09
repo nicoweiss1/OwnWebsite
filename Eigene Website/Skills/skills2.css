@@ -28,44 +28,64 @@ a:hover {
 
 
 
-.Homepage { /*Erste Reihe von den ersten 3 Objekten*/
+.All-Skills1 { /*die ersten 3 skills*/
     display: flex;
     justify-content: space-around;
-    margin-top: 3vw;
+    
 }
-
-.Block {
-    
-    
+.skill {
     background: #362F2F;
-    height: 22vw; 
-    width: 13vw;
-}
-
-img {
-    
-    width: 13vw;
-    height: 22vw;
-}
-h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 32w;
+    width: 20vw;
+    height: 5vw;
+    margin: 4vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    transition: height 0.4s ease-in-out;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
 }
 p {
+    opacity: 0;
     display: flex;
     justify-content: center;
-    
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    align-items: end;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
+    transition: height 4s ease-in;
+}
+img {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 5vw;
+    transition: height 4s ease-in;
+    
+}
+.three img {
+    height: 10vw;
+    width: 6vw;
+    margin-left: 7vw;
+}
+.skill:hover {
+    height: 18vw;
+}
+.skill:hover p {
+    opacity: 1;
+}
+.skill:hover img {
+    opacity: 1;
 }
 
-
-
-
-
+.All-Skills2 { /*die ersten 3 skills*/
+    margin-top: 4.2vw;
+    display: flex;
+    justify-content: space-around;
+    
+}

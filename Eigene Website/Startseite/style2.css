@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    
 }
 body {
     background-color: rgb(7, 0, 0);
@@ -87,4 +87,43 @@ height: 1.5vw;
     font-size: 1vw;
     width: 10vw;
     margin: 0;
+    
 }
+
+@media (max-width: 800px){
+    ul {
+        padding: 2.5vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    .Homepage {
+        flex-direction: column;
+        margin-top: 5vw;
+    }
+    img {
+        
+        width: 100vw;
+    }
+    .Block {
+        width: 100VW;
+        
+    }
+    h1 {
+        font-size: 9vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+    .Linie {
+        height: 0.3vw;
+        width: 50vw;
+    }
+    .copyright p {
+        font-size: 1.7vw;
+        
+        width: 17vw;
+    }
+}
+
+

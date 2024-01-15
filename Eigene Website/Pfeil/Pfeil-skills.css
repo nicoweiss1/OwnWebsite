@@ -4,7 +4,6 @@ body {
     padding: 0;
 }
 
-
 .navbar {
     background: rgb(24, 23, 23);
 }
@@ -22,10 +21,10 @@ a {
     text-decoration: none;
     font-family: sans-serif,Arial;
 }
+
 a:hover {
     color: rgb(13, 111, 132);
 }
-
 
 
 .All-Skills1 { /*die ersten 3 skills*/
@@ -54,8 +53,7 @@ p {
     align-items: end;
     text-align: center;
     font-size: 1vw;
-    transition: opacity 0.2s ease-in-out;
-
+    transition: height 4s ease-in;
 }
 img {
     opacity: 0;
@@ -66,7 +64,7 @@ img {
     width: 10vw;
     height: 10vw;
     margin-left: 5vw;
-    transition: opacity 0.2s ease-in-out;
+    transition: height 4s ease-in;
     
 }
 .three img {
@@ -79,17 +77,10 @@ img {
 }
 .skill:hover p {
     opacity: 1;
-    transition-delay: 0.1s;
 }
 .skill:hover img {
     opacity: 1;
-    transition-delay: 0.1s;
 }
-
-
-
-
-
 
 .All-Skills2 { /*die ersten 3 skills*/
     margin-top: 4.2vw;
@@ -126,3 +117,5 @@ height: 1.5vw;
     width: 10vw;
     margin: 0;
 }
+
+

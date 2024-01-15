@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(7, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(24, 23, 23);
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1vw;
+}
+.Element {
+    font-size: 1vw;        
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif,Arial;
+}
+
+a:hover {
+    color: rgb(13, 111, 132);
+}
+
+
+
+.Kontaktbox {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background: white;
+    border-radius: 1vw;
+    max-width: 36vw; 
+    max-height: 20vw;
+    margin: 10vw auto; 
+    opacity: 0.9;
+    animation: swipeUp 1s ease forwards;
+}
+.Kontaktbox p {
+    font-family: sans-serif,Arial;
+    font-size: 1vw;
+    
+}
+.Kontaktbox img {
+    max-width: 14vw; 
+    margin-top: 0vw; 
+}
+
+.Kontaktbox button {
+    margin-top: 0vw; 
+    margin-bottom: 1vw;
+    font-size: 0.7vw; 
+    border: none;
+    
+    padding: 0.5vw;
+    border-radius: 1vw;
+    background-color: #2222220d;
+    color: #222;    
+}
+.Kontaktbox a {
+    display: flex;   
+} 
+
+button:hover {
+    background-color: #2222221a;
+}
+
+
+
+@keyframes swipeUp {
+    from {
+        transform: translateY(100%); /* Start from below the view */
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0); /* End at its normal position */
+        opacity: 1;
+    }
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vw;
+    
+}
+.Linie {
+    
+    background-color: white;
+    height: 0.1vw;
+    width: 300vw;
+}
+.copyright {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: -0.6vw;
+text-align: center;
+
+height: 1.5vw;
+}
+.copyright  p{
+    font-size: 1vw;
+    width: 10vw;
+    margin: 0;
+    color: white;
+    font-family: sans-serif,Arial;
+}
+
+
+

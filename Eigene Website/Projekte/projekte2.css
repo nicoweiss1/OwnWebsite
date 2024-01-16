@@ -88,3 +88,46 @@ height: 3vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 800px) {
+    ul {
+        padding: 2.5vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    .All-Projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project h3 {
+        font-size: 5vw;
+        width: 30vw;
+        margin-top: -17vw;
+    }
+    .project p {
+        
+        opacity: 1;
+        font-size: 3vw;
+        width:  45vw;
+        margin-left: -10vw;
+    }
+    .project {
+        height: 13vw;
+        padding: 20vw;
+        margin: 30vw;
+    }
+    
+    .Footer {    
+       margin-bottom: -15vw;
+    }
+    .Linie {
+        height: 0.3vw;
+        width: 50vw;
+    }
+    .copyright p {
+        font-size: 1.7vw;
+        
+        width: 17vw;
+    }
+}

@@ -113,4 +113,45 @@ height: 1.5vw;
 }
 
 
+@media (max-width: 800px) {
+    ul {
+        padding: 2.5vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    .Kontaktbox {
+        margin-top: 55vw;
+        padding: 20vw;
+    }
+    .Kontaktbox p {
+        font-size: 4vw;
+       
+        width: 75vw;
+        text-align: center;
+        margin-top: -17vw;
+    }
+    .Kontaktbox img {
+        max-width: 40vw;
+    }
+    .Kontaktbox button {
+        padding: 1vw; 
+        
+        width: 25vw;
+        font-size: 3vw;
+    }
+    .Footer {
+        margin-top: 80vw;
+    }
+    .Linie {
+        height: 0.3vw;
+        width: 50vw;
+    }
+    .copyright p {
+        font-size: 1.7vw;
+        
+        width: 17vw;
+    } 
+}
+
 

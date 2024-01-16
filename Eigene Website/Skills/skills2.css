@@ -126,3 +126,67 @@ height: 3vw;
     color: white;
     font-family: sans-serif,Arial;
 }
+
+
+
+
+@media (max-width: 800px){
+    ul {
+        padding: 2.5vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    .All-Skills1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .All-Skills2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 18vw;
+        padding: 15vw;
+    }
+    .skill img {
+        opacity: 1;
+        width: 25vw;
+        height: 25vw;
+        margin-right: 5vw;
+        margin-top: -2vw;
+    }
+    .skill p {
+        opacity: 1;
+        font-size: 3vw;
+        margin-top: 4vw;
+    }
+    .skill h3 {
+        font-size: 5vw;
+        margin-top: 1vw;
+    }
+    .three img {
+        height: 25vw;
+        width: 18vw;
+        margin-left: 5vw;
+    }
+    .Footer {    
+        margin-bottom: -150vw;
+    }
+    .Linie {
+        height: 0.3vw;
+        width: 50vw;
+    }
+    .copyright p {
+        font-size: 1.7vw;
+        
+        width: 17vw;
+    }
+    
+
+    
+}

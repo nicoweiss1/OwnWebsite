@@ -1,13 +1,9 @@
-html {
-    
-}
+
 body {
     background-color: rgb(7, 0, 0);
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    min-height: 100%;
 }
 
 .navbar {
@@ -61,34 +57,42 @@ p {
 
 
 
+
 .Footer {
+    position: fixed;
     display: flex;
-    justify-content: space-around;
-    margin-top: 0.8vw;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 7vw; /* Adjust the height as needed */
 }
+
 .Linie {
-    
     background-color: white;
     height: 0.1vw;
-    width: 300vw;
+    width: 100%; /* Adjust the width as needed */
+     /* This will create equal space above and below the line */
 }
-.copyright {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: -0.6vw;
-text-align: center;
 
-height: 1.5vw;
+.copyright {
+    text-align: center;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.copyright  p{
+
+.copyright p {
     font-size: 1vw;
-    width: 10vw;
     margin: 0;
-    
+    color: white;
+    font-family: sans-serif, Arial;
 }
+
+
+
 
 @media (max-width: 800px){
     ul {

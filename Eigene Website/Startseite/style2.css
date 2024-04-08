@@ -35,7 +35,7 @@ a:hover {
     display: flex;
 }
 img {
-    width: 35vw;
+    width: 26vw;
 }
 .Block {
     background: #181717;
@@ -59,6 +59,8 @@ p {
 
 
 .Footer {
+    
+
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -67,6 +69,7 @@ p {
     bottom: 0;
     width: 100%;
     height: 7vw; /* Adjust the height as needed */
+    margin-top: 27vw;
 }
 
 .Linie {
@@ -92,6 +95,13 @@ p {
 }
 
 
+
+@media (min-width: 800px) and (max-width: 900px) {
+    img {
+        width: 33vw;
+    }
+
+}
 
 
 @media (max-width: 800px){
@@ -119,14 +129,9 @@ p {
     p {
         font-size: 5vw;
     }
-    .Linie {
-        height: 0.3vw;
-        width: 50vw;
-    }
-    .copyright p {
-        font-size: 1.7vw;
-        
-        width: 17vw;
+    .Footer {
+        position: absolute;
+        top: 180vw;
     }
 }
 

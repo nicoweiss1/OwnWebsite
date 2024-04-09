@@ -1,3 +1,8 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;  /* Ordnet die Kinder in umgekehrter Reihenfolge an */
+    min-height: 100vh;
+}
 body {
     background-color: rgb(7, 0, 0);
     margin: 0vw;
@@ -6,13 +11,15 @@ body {
 
 
 .navbar {
+    
+    margin-top: 1vw;
     background: rgb(24, 23, 23);
 }
 ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    padding: 1vw;
+    padding: 0vw;
 }
 .Element {
     font-size: 1vw;        
@@ -30,68 +37,63 @@ a:hover {
 .All-Projects {
     display: flex;
     justify-content: space-around;
+    flex: 1;
 }
 .project {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Zentriert horizontal */
+    justify-content: center; /* Zentriert vertikal */
     background: #362F2F;
-    width: 25vw;
-    height: 5vw;
+  
     margin: 4vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    transition: height 0.4s ease-in-out;
-}
-.project h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5vw;
-}
-.project p {
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1vw;
-    transition: opacity 0.45s ease-in-out;
+    transition: height 0.4s ease-in-out, transform 0.3s ease-in-out; /* Füge transform zu den Transitions hinzu */
+    transform: scale(1); /* Standard Skalierung */
 }
 .project:hover {
-    height: 13vw;
+    transform: scale(1.1); /* Vergrößert das Element um 10% */
 }
-.project:hover p {
-    opacity: 1;
+.project h3 {
+    font-size: 3vw;
+    text-align: center;    
+
+}
+
+.project p {    
+    text-align: center;
+    font-size: 1.8vw;
+    transition: opacity 0.45s ease-in-out;
 }
 
 
-.Footer {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    
-}
-.Linie {
-    
-    background-color: white;
-    height: 0.1vw;
-    width: 300vw;
-}
-.copyright {
-margin-top: -0.6vw;
-text-align: center;
-
-height: 3vw;
-}
-.copyright  p {
-    font-size: 1vw;
-    width: 10vw;
-    margin: 0;
+footer {
+    background: rgb(24, 23, 23);
     color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 2vw;  /* Automatically margin at the top pushing footer to bottom */
+}
+
+/* Update your footer CSS */
+footer p {
+    padding: 0.5vw;
+    margin: 0;  /* Reset any margins that might push layout */
+    font-size: 1.2vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
+
+
+
 @media (max-width: 800px) {
     ul {
-        padding: 2.5vw;
+        padding: 1vw;
     }
     a {
         font-size: 2vw;
@@ -102,32 +104,16 @@ height: 3vw;
     }
     .project h3 {
         font-size: 5vw;
-        width: 30vw;
-        margin-top: -17vw;
+    
     }
     .project p {
-        
-        opacity: 1;
         font-size: 3vw;
-        width:  45vw;
-        margin-left: -10vw;
     }
     .project {
-        height: 13vw;
-        padding: 20vw;
-        margin: 30vw;
-    }
-    
-    .Footer {    
-       margin-bottom: -15vw;
-    }
-    .Linie {
-        height: 0.3vw;
-        width: 50vw;
-    }
-    .copyright p {
-        font-size: 1.7vw;
-        
-        width: 17vw;
-    }
+    width: 70vw;    
+}
+footer p {
+    padding: 2vw;
+    font-size: 2vw;
+}
 }

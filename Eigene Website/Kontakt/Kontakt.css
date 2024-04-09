@@ -1,4 +1,10 @@
-
+.wrapper {
+    display: flex;
+    flex-direction: column;  /* Ordnet die Kinder in umgekehrter Reihenfolge an */
+  
+    
+    min-height: 100vh;
+}
 
 body {
     background-color: rgb(7, 0, 0);
@@ -7,14 +13,14 @@ body {
 }
 
 .navbar {
-    flex: 1;
+    margin-top: 1vw;
     background: rgb(24, 23, 23);
 }
 ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    padding: 1vw;
+    padding: 0vw;
 }
 .Element {
     font-size: 1vw;        
@@ -32,34 +38,38 @@ a:hover {
 
 
 .Kontaktbox {
+    flex: 1;
     display: flex; 
     flex-direction: column; 
     align-items: center; 
+    
     background: white;
     border-radius: 1vw;
-    max-width: 36vw; 
-    max-height: 20vw;
-    margin: 10vw auto; 
+    width: 60vw; 
+    height: 30vw;
+    margin: 5vw auto; 
     opacity: 0.9;
+    overflow: auto;    /* Scrollbalken bei Bedarf */
     animation: swipeUp 1s ease forwards;
 }
 .Kontaktbox p {
     font-family: sans-serif,Arial;
-    font-size: 1vw;
+    font-size: 3vw;
     
 }
 .Kontaktbox img {
-    max-width: 14vw; 
-    margin-top: 0vw; 
+    
+    width: 20vw; 
+  
 }
 
 .Kontaktbox button {
     margin-top: 0vw; 
     margin-bottom: 1vw;
-    font-size: 0.7vw; 
+    font-size: 1vw; 
     border: none;
     
-    padding: 0.5vw;
+    padding: 1vw;
     border-radius: 1vw;
     background-color: #2222220d;
     color: #222;    
@@ -91,8 +101,7 @@ footer {
     color: white;
     text-align: center;
     width: 100%;
-    margin-top: 2vw;  /* Automatically margin at the top pushing footer to bottom */
- 
+    margin-top: auto;  /* Automatically margin at the top pushing footer to bottom */
 }
 
 /* Update your footer CSS */
@@ -100,9 +109,8 @@ footer p {
     padding: 0.5vw;
     margin: 0;  /* Reset any margins that might push layout */
     font-size: 1.2vw;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
-   
 
 
 
@@ -110,39 +118,47 @@ footer p {
 
 
 
-
-
-@media (max-width: 800px){
+@media (max-width: 800px) {
     ul {
         padding: 1vw;
     }
     a {
         font-size: 2vw;
     }
-    .Homepage {
-        flex-direction: column;
-        margin-top: 5vw;
-    }
-    img {
-        
-        width: 100vw;
-    }
-    .Block {
-        width: 100VW;
+    .Kontaktbox p {
+        font-size: 6vw;
+        text-align: center;
         
     }
-    h1 {
-        font-size: 9vw;
+    .Kontaktbox img {
+        width: 35vw;
     }
-    p {
-        font-size: 5vw;
+    
+    .Kontaktbox button {
+       margin-top: 7vw;
+        font-size: 3vw;   
+    }
+    footer p {
+    padding: 2vw;
+    font-size: 2vw;
+    }
+
+}
+@media (max-width: 500px) {
+  
+    .Kontaktbox p {
+        font-size: 11vw;
+        text-align: center;
+        
+    }
+    .Kontaktbox img {
+        width: 55vw;
+    }
+    
+    .Kontaktbox button {
+       margin-top: 30vw;
+        font-size: 5vw;   
     }
    
-}
 
-
-@media (min-width: 800px) and (max-width: 1000px) {
-    img {
-        width: 80vw;
-    }
 }

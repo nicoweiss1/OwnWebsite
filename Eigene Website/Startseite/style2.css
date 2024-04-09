@@ -1,6 +1,6 @@
 .wrapper {
     display: flex;
-    flex-direction: row-reverse;  /* Ordnet die Kinder in umgekehrter Reihenfolge an */
+    flex-direction: column;  /* Ordnet die Kinder in umgekehrter Reihenfolge an */
     min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@ ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    padding: 1vw;
+    padding: 0vw;
 }
 .Element {
     font-size: 1vw;        

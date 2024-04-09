@@ -1,13 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;  /* Ordnet die Kinder in umgekehrter Reihenfolge an */
+    min-height: 100vh;
+}
+
+
 
 body {
     background-color: rgb(7, 0, 0);
     margin: 0;
     padding: 0;
-    display: flex;
+    
 }
 
 .navbar {
+    flex: 1;
     background: rgb(24, 23, 23);
+    margin-top: 1vw;
+    
 }
 ul {
     display: flex;
@@ -33,9 +43,10 @@ a:hover {
 
 .Homepage {
     display: flex;
+    margin-top: 2vw;
 }
 img {
-    width: 26vw;
+    width: 30vw;
 }
 .Block {
     background: #181717;
@@ -57,56 +68,34 @@ p {
 
 
 
-
-.Footer {
-    
-
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    width: 100%;
-    height: 7vw; /* Adjust the height as needed */
-    margin-top: 27vw;
-}
-
-.Linie {
-    background-color: white;
-    height: 0.1vw;
-    width: 100%; /* Adjust the width as needed */
-     /* This will create equal space above and below the line */
-}
-
-.copyright {
-    text-align: center;
-    height: 3vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.copyright p {
-    font-size: 1vw;
-    margin: 0;
+footer {
+    background: rgb(24, 23, 23);
     color: white;
-    font-family: sans-serif, Arial;
+    text-align: center;
+    width: 100%;
+    margin-top: 2vw;  /* Automatically margin at the top pushing footer to bottom */
 }
 
-
-
-@media (min-width: 800px) and (max-width: 900px) {
-    img {
-        width: 33vw;
-    }
-
+/* Update your footer CSS */
+footer p {
+    padding: 0.5vw;
+    margin: 0;  /* Reset any margins that might push layout */
+    font-size: 1.2vw;
+    
 }
+   
+
+
+
+
+
+
+
 
 
 @media (max-width: 800px){
     ul {
-        padding: 2.5vw;
+        padding: 1vw;
     }
     a {
         font-size: 2vw;
@@ -129,10 +118,12 @@ p {
     p {
         font-size: 5vw;
     }
-    .Footer {
-        position: absolute;
-        top: 180vw;
-    }
+   
 }
 
 
+@media (min-width: 800px) and (max-width: 1000px) {
+    img {
+        width: 80vw;
+    }
+}

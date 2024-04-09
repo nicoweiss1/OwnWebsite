@@ -1,13 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;  /* Ordnet die Kinder in umgekehrter Reihenfolge an */
+    min-height: 100vh;
+}
 body {
     background-color: rgb(7, 0, 0);
     margin: 0;
     padding: 0;
-
+    
 }
 
 
 .navbar {
+    flex: 1;
     background: rgb(24, 23, 23);
+    margin-top: 1vw;
 }
 ul {
     display: flex;
@@ -32,7 +39,6 @@ a:hover {
 .All-Skills1 { /*die ersten 3 skills*/
     display: flex;
     justify-content: space-around;
-    
 }
 .skill {
     background: #362F2F;
@@ -92,8 +98,11 @@ h3 {
     display: flex;
     justify-content: space-around;
 }
-
-
+.All-Skills3 { /*die ersten 3 skills*/
+    margin-top: 4.2vw;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -173,20 +182,64 @@ height: 3vw;
         height: 25vw;
         width: 18vw;
         margin-left: 5vw;
+    }}
+    
+    footer {
+        background: rgb(24, 23, 23);
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-top: 2vw;  /* Automatically margin at the top pushing footer to bottom */
     }
-    .Footer {    
-        margin-bottom: -150vw;
-    }
-    .Linie {
-        height: 0.3vw;
-        width: 50vw;
-    }
-    .copyright p {
-        font-size: 1.7vw;
+    
+    /* Update your footer CSS */
+    footer p {
+        padding: 0.5vw;
+        margin: 0;  /* Reset any margins that might push layout */
+        font-size: 1.2vw;
         
-        width: 17vw;
+    }
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 800px){
+        ul {
+            padding: 1vw;
+        }
+        a {
+            font-size: 2vw;
+        }
+        .Homepage {
+            flex-direction: column;
+            margin-top: 5vw;
+        }
+        img {
+            
+            width: 100vw;
+        }
+        .Block {
+            width: 100VW;
+            
+        }
+        h1 {
+            font-size: 9vw;
+        }
+        p {
+            font-size: 5vw;
+        }
+       
     }
     
-
     
-}
+    @media (min-width: 800px) and (max-width: 1000px) {
+        img {
+            width: 80vw;
+        }
+    }

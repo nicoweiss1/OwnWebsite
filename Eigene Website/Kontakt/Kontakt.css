@@ -1,3 +1,5 @@
+
+
 body {
     background-color: rgb(7, 0, 0);
     margin: 0;
@@ -5,6 +7,7 @@ body {
 }
 
 .navbar {
+    flex: 1;
     background: rgb(24, 23, 23);
 }
 ul {
@@ -82,74 +85,64 @@ button:hover {
     }
 }
 
-.Footer {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15vw;
-    
-}
-.Linie {
-    
-    background-color: white;
-    height: 0.1vw;
-    width: 300vw;
-}
-.copyright {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: -0.6vw;
-text-align: center;
 
-height: 1.5vw;
-}
-.copyright  p{
-    font-size: 1vw;
-    width: 10vw;
-    margin: 0;
+footer {
+    background: rgb(24, 23, 23);
     color: white;
-    font-family: sans-serif,Arial;
+    text-align: center;
+    width: 100%;
+    margin-top: 2vw;  /* Automatically margin at the top pushing footer to bottom */
+ 
 }
 
+/* Update your footer CSS */
+footer p {
+    padding: 0.5vw;
+    margin: 0;  /* Reset any margins that might push layout */
+    font-size: 1.2vw;
+    
+}
+   
 
-@media (max-width: 800px) {
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
     ul {
-        padding: 2.5vw;
+        padding: 1vw;
     }
     a {
         font-size: 2vw;
     }
-    .Kontaktbox {
-        margin-top: 55vw;
-        padding: 20vw;
+    .Homepage {
+        flex-direction: column;
+        margin-top: 5vw;
     }
-    .Kontaktbox p {
-        font-size: 4vw;
-       
-        width: 75vw;
-        text-align: center;
-        margin-top: -17vw;
-    }
-    .Kontaktbox img {
-        max-width: 40vw;
-    }
-    .Kontaktbox button {
-        padding: 1vw; 
+    img {
         
-        width: 25vw;
-        font-size: 3vw;
+        width: 100vw;
     }
-    .Footer {
-        margin-top: 80vw;
-    }
-    .Linie {
-        height: 0.3vw;
-        width: 50vw;
-    }
-    .copyright p {
-        font-size: 1.7vw;
+    .Block {
+        width: 100VW;
         
-        width: 17vw;
-    } 
+    }
+    h1 {
+        font-size: 9vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+   
+}
+
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    img {
+        width: 80vw;
+    }
 }
